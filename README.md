@@ -1,4 +1,8 @@
 # Guids Web Api
+
+<img width="1433" alt="Screen Shot 2024-10-14 at 4 43 16 PM" src="https://github.com/user-attachments/assets/d9cead76-f924-4f47-80f4-ac92a183f55f">
+
+
 1. Run "docker-compose up --build"
 2. Swagger URL : http://localhost:5000/swagger/index.html
 3. In order to run Console application navigate to guid.api.client container and start application by typing : "dotnet Guids.Api.Client.dll http://guids.api:5000"
