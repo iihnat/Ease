@@ -7,6 +7,10 @@
 2. Swagger URL : http://localhost:5000/swagger/index.html
 3. In order to run Console application navigate to guid.api.client container and start application by typing : "dotnet Guids.Api.Client.dll http://guids.api:5000"
 
+<img width="1180" alt="Screen Shot 2024-10-14 at 4 45 02 PM" src="https://github.com/user-attachments/assets/6768c6b9-6554-420a-b2c8-b2fd81ea0e3d">
+
+
+
    ```
 
     $ dotnet Guids.Api.Client.dll http://guids.api:5000
