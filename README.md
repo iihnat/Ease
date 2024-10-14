@@ -34,6 +34,3 @@
     }
     
 ```
-# Swagger 
-<img width="1428" alt="Screen Shot 2024-10-14 at 4 40 29 PM" src="https://github.com/user-attachments/assets/3b4eda55-ed18-4f12-9396-67ce6760e738">
-
