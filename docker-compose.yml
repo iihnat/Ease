@@ -1,0 +1,42 @@
+version: '3.4'
+
+services:
+  guid.api.client:
+    image: ${DOCKER_REGISTRY-}guidsapiclient
+    container_name: guid.api.client
+    stdin_open: true
+    tty: true
+    build:
+      context: .
+      dockerfile: ./Guids.Api.Client/Dockerfile
+    ports:
+      - "5050:5050"
+    depends_on:
+      - guids.api
+
+  guids.api:
+    image: ${DOCKER_REGISTRY-}guidsapi
+    container_name: guids.api
+    build:
+      context: .
+      dockerfile: ./Guids.Api/Dockerfile
+    ports:
+      - "5000:5000"
+
+  guids.database:
+    image: postgres:latest
+    container_name: guids.database
+    environment:
+      - POSTGRES_DB=guids
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./.containers/guids-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  guids.cache:
+    image: redis:latest
+    restart: always
+    ports:
+      - '6379:6379'

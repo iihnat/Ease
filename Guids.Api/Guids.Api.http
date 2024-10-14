@@ -1,0 +1,6 @@
+@Guids.Api_HostAddress = http://localhost:5000
+
+GET {{Guids.Api_HostAddress}}/users/
+Accept: application/json
+
+###
