@@ -1,4 +1,4 @@
-<img width="1428" alt="Screen Shot 2024-10-14 at 4 40 29 PM" src="https://github.com/user-attachments/assets/3b4eda55-ed18-4f12-9396-67ce6760e738"># Ease
+# Guids Web Api
 1. Run "docker-compose up --build"
 2. Swagger URL : http://localhost:5000/swagger/index.html
 3. In order to run Console application navigate to guid.api.client container and start application by typing : "dotnet Guids.Api.Client.dll http://guids.api:5000"
@@ -34,5 +34,6 @@
     }
     
 ```
-<img width="1431" alt="Screen Shot 2024-10-14 at 4 40 58 PM" src="https://github.com/user-attachments/assets/b159dcd2-2a21-4b72-a657-7b98b5135e64">
+# Swagger 
+<img width="1428" alt="Screen Shot 2024-10-14 at 4 40 29 PM" src="https://github.com/user-attachments/assets/3b4eda55-ed18-4f12-9396-67ce6760e738">
 
